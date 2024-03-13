@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cbrbot"
+version = "0.1.0"
+description = ""
+authors = ["kirill <shkolenko02-03-2004@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-telegram-bot = "13.7"
+chromadb = "^0.4.24"
+sentence-transformers = "^2.5.1"
+pandas = "^2.2.1"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
